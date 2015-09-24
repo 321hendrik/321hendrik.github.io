@@ -4,13 +4,13 @@
   {% include head.html %}
 
   <body>
+    <script type="text/javascript">{% include js/jquery.min.js %}</script>
+    <script type="text/javascript">{% include js/trianglify.min.js %}</script>
 
     {% include header.html %}
 
     <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+      {{ content }}
     </div>
 
     {% include footer.html %}

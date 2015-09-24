@@ -1,4 +1,5 @@
 # Site settings
+baseurl: /
 title: Hendrik's Blog
 email: 321hendrik@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
@@ -16,32 +17,6 @@ markdown: kramdown
 
 # Prose Editor Settings
 prose:
-	rooturl: '_posts'
-	siteurl: 'http://hendrikelsner.github.io/'
-	media: 'img'
-	metadata:
-		_posts:
-		  - name: "layout"
-			field:
-			  element: "hidden"
-			  value: "blog"
-		  - name: "tags"
-			field:
-			  element: "multiselect"
-			  label: "Add Tags"
-			  placeholder: "Choose Tags"
-			  options:
-				- name: "Apples"
-				  value: "apples"
-				- name: "Bananas"
-				  value: "bananas"
-		_posts/static:
-		  - name: "layout"
-			field:
-			  element: "hidden"
-			  value: "page"
-		  - name: "permalink"
-			field:
-			  element: "text"
-			  label: "Permalink"
-			  value: ""
+  rooturl: '_posts'
+  siteurl: 'http://hendrikelsner.github.io/'
+  media: 'img'

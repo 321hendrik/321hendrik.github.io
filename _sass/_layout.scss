@@ -180,7 +180,7 @@
 
 .post-meta {
     font-size: $small-font-size;
-    color: $grey-color;
+    color: $grey-color-not-so-dark;
 }
 
 .post-link {
@@ -195,9 +195,22 @@
  */
 .post-header {
     margin-bottom: $spacing-unit;
+    margin-top: -$spacing-unit;
+    margin-bottom: $spacing-unit;
+    padding-bottom: 10px;
+    padding-top: $spacing-unit;
+}
+
+.post-header-content {
+    max-width: calc(800px - (30px * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 .post-title {
+    color: $grey-color-dark;
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
@@ -205,6 +218,16 @@
     @include media-query($on-laptop) {
         font-size: 36px;
     }
+}
+
+.width-30 {
+    width: 29%;
+    display: inline-block;
+}
+
+.width-70 {
+    width: 69%;
+    display: inline-block;
 }
 
 .post-content {
@@ -233,4 +256,12 @@
             font-size: 18px;
         }
     }
+}
+
+/**
+ * Search
+ */
+#search-container {
+    text-align: right;
+    float: right;
 }

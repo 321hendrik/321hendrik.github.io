@@ -2,7 +2,7 @@
 layout: post
 title:  "About Starting the Blog"
 date:   2015-09-24 12:30:46
-categories: jekyll blog ruby
+tags: jekyll,blog,ruby
 ---
 ### Motivation
 This is about putting my daily experiences and code snippets in a centralized space and at the same time trying out a github hosted blog with [Jekyll][jekyll].  
