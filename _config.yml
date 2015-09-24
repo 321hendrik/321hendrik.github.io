@@ -8,5 +8,8 @@ url: "http://hendrikelsner.github.io" # the base hostname & protocol for your si
 github_username:  hendrikelsner
 
 # Build settings
+permalink: /:title/
 include: [img]
-markdown: kramdown
+github: [Repository metadata]
+highlighter: pygments
+markdown: redcarpet
