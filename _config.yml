@@ -12,4 +12,9 @@ permalink: /:title/
 include: [img]
 github: [Repository metadata]
 highlighter: pygments
-markdown: redcarpet
+markdown: kramdown
+
+# Prose Editor Settings
+prose:
+	siteurl: "http://hendrikelsner.github.io"
+	media: "img"
