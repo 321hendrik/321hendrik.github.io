@@ -16,8 +16,8 @@ markdown: kramdown
 
 # Prose Editor Settings
 prose:
-rooturl: '_posts'
-	siteurl: 'http://hendrikelsner.github.io'
+	rooturl: '_posts'
+	siteurl: 'http://hendrikelsner.github.io/'
 	media: 'img'
 	metadata:
 		_posts:
