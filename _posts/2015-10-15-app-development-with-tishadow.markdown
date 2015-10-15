@@ -37,7 +37,7 @@ For a specific device:	tn DEVICE_NAME_FROM_TINY --appify
 * If you did not use the specific device install, copy and install the app to your device
 * Start up the server with `tishadow server` (logs will be printed here)
 * Initially push your code to all devices with `tishadow run`
-* You can then push just your changes with `tishadow run --update`
+* You can then push just your changes with `tishadow run --update` (or use my [Sublime Text Build System]({% post_url 2015-10-15-tishadow-sublime-build-system %}))
 
 Want to learn more and dive deeper into [TiShadow][tishadow]? Check out the [TiShadow README][tishadow_readme] for more info.
 
