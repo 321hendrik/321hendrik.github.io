@@ -221,6 +221,7 @@
 }
 
 .width-30 {
+    min-width: 200px;
     width: 29%;
     display: inline-block;
 }
@@ -264,4 +265,8 @@
 #search-container {
     text-align: right;
     float: right;
+}
+
+#results-container {
+    display: inline-block;
 }
