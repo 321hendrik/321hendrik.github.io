@@ -11,6 +11,7 @@ github_username:  hendrikelsner
 # Build settings
 permalink: /:title/
 include: [img]
+exclude: [vendor]
 github: [Repository metadata]
 highlighter: pygments
 markdown: kramdown
