@@ -5,13 +5,16 @@ date:   2015-12-22 08:01:12
 tags: development, aws, eb, git
 ---
 Get ready using AWS Elastic Beanstalk by installing the CLI and upgrading your git workflow.
+
+### Installation
+
 This is how you do it:
 
 * check that python is installed (install it from [python.org][python_install])
 {% highlight bash %}
 python --version
 {% endhighlight %}
-* install pip for easy module installation with python [here's how][pip_install]
+* install pip for easy module installation with python ([here's how][pip_install])
 * install virtualenv to have your eb-cli install isolated
 {% highlight bash %}
 (sudo) pip install virtualenv
@@ -33,6 +36,8 @@ sudo ln -s ~/ebenv/bin/eb /usr/local/bin/
 {% highlight bash %}
 eb --version
 {% endhighlight %}
+
+### Setup
 
 Now that you're ready to go, change into a git repository and initialize EB:
 {% highlight bash %}
