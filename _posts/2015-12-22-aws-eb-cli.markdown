@@ -43,7 +43,7 @@ Now that you're ready to go, change into a git repository and initialize EB:
 {% highlight bash %}
 eb init
 {% endhighlight %}
-checkout your production branch and link it to an EB environment (list them with `eb list`):
+* checkout your production branch and link it to an EB environment (list them with `eb list`):
 {% highlight bash %}
 git checkout production
 eb use my_app_production
