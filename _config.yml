@@ -13,7 +13,7 @@ permalink: /:title/
 include: [img]
 exclude: [vendor]
 github: [Repository metadata]
-highlighter: pygments
+highlighter: rouge
 markdown: kramdown
 
 # Prose Editor Settings
