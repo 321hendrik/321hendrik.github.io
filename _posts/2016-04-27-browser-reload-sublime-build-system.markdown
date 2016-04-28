@@ -4,7 +4,9 @@ title:  "Sublime Text Build System for Browser Reload (Mac)"
 date:   2016-04-27 12:45:12
 tags: fast, development, sublime, text, build, system, browser, reload, web, chrome, mac
 ---
-When you're working on a website, browser reload on file changes isn't always the best option, especially with complex one-page applications. So if you like the be in control, just use this [Sublime Text][sublime_text] build system to trigger a reload of the currently active browser tab (Cmd+B on Mac).
+When you're working on a website, browser reload on file changes isn't always the best option, especially with complex one-page applications.
+  
+So if you like to be in control, just use this [Sublime Text][sublime_text] build system to trigger a reload of the currently active browser tab (Cmd+B on Mac).
 
 * Open [Sublime Text][sublime_text] and go to Tools --> Build System --> New Build System...
 * Copy & paste the below code
