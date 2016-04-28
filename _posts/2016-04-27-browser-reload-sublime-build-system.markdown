@@ -8,6 +8,7 @@ When you're working on a website, browser reload on file changes isn't always th
 
 * Open [Sublime Text][sublime_text] and go to Tools --> Build System --> New Build System...
 * Copy & paste the below code
+
 ```json
 {
 	"cmd": ["osascript -e 'tell application \"Google Chrome\" to tell the active tab of its first window to reload'"],
@@ -15,6 +16,7 @@ When you're working on a website, browser reload on file changes isn't always th
 	"shell": true
 }
 ```
+
 * Save this file to your [Sublime Text][sublime_text] user folder. I named it `TiShadow.sublime-build`.
 * Now open up your web project folder in [Sublime Text][sublime_text]
 * Select your newly created build system (Tools --> Build System --> YOUR_BUILD_SYSTEM_NAME)
