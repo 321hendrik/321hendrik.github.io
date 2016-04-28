@@ -11,16 +11,21 @@ Get ready using AWS Elastic Beanstalk by installing the CLI and upgrading your g
 This is how you do it:
 
 * check that python is installed (install it from [python.org][python_install])
-{% highlight bash %}
+
+```bash
 python --version
-{% endhighlight %}
+```
+
 * install pip for easy module installation with python ([here's how][pip_install])
 * install virtualenv to have your eb-cli install isolated
-{% highlight bash %}
+
+```bash
 (sudo) pip install virtualenv
-{% endhighlight %}
+```
+
 * finally install eb-cli
-{% highlight bash %}
+
+```bash
 # create a new virtual environment for eb-cli
 virtualenv ~/ebenv
 # change into the new environment
@@ -31,30 +36,37 @@ pip install awsebcli
 deactivate
 # link the cli for path access
 sudo ln -s ~/ebenv/bin/eb /usr/local/bin/
-{% endhighlight %}
+```
+
 * check that everything installed fine
-{% highlight bash %}
+
+```bash
 eb --version
-{% endhighlight %}
+```
 
 ### Setup
 
 Now that you're ready to go, change into a git repository and initialize EB:
-{% highlight bash %}
+
+```bash
 eb init
-{% endhighlight %}
+```
+
 * checkout your production branch and link it to an EB environment (list them with `eb list`):
-{% highlight bash %}
+
+```bash
 git checkout production
 eb use my_app_production
-{% endhighlight %}
+```
+
 now you can deploy changes, check status, get logs and much more:
-{% highlight bash %}
+
+```bash
 eb deploy
 eb status
 eb logs
 ...
-{% endhighlight %}
+```
 
 You can find out more about the EB-CLI [here][eb_cli_commands].
 

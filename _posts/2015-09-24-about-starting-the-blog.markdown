@@ -12,21 +12,25 @@ Hosting a blog this way is easy:
 
 * Create a github repo with your account name in the form of `username.github.io`
 * Install [Jekyll][jekyll]
-{% highlight bash %}
+
+```bash
 gem install jekyll
 jekyll new SITENAME
 cd SITENAME
 jekyll server
-{% endhighlight %}
+```
+
 * Edit the `_config.yml` to suit your needs
 * Upload your site to github
-{% highlight bash %}
+
+```bash
 git init
 git add .
 git commit -am "init"
 git remote add origin https://github.com/USERNAME/REPOSITORY.git
 git push -u origin master
-{% endhighlight %}
+```
+
 * Github automagically builds jekyll blogs when you push to your repos master branch.
 * You're done. So make some more posts
 

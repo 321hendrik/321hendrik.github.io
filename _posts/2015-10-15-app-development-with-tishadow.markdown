@@ -29,11 +29,13 @@ Just run `tn ipad-2 --shadow` from your app project's root folder to launch the 
 Here comes the real Magic. Want to see changes on all connected Devices and running Simulators? Here's how:  
 
 * Create a shadow (appified) version of your app by running the needed commands from your project's root:
-{% highlight bash %}
+
+```bash
 For iOS:		tn ah --appify
 For Android:		tn playstore --appify
 For a specific device:	tn DEVICE_NAME_FROM_TINY --appify
-{% endhighlight %}
+```
+
 * If you did not use the specific device install, copy and install the app to your device
 * Start up the server with `tishadow server` (logs will be printed here)
 * Initially push your code to all devices with `tishadow run`

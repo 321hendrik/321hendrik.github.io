@@ -11,7 +11,8 @@ Here is a [Sublime Text][sublime_text] build system, that lets you trigger your 
 
 * Open [Sublime Text][sublime_text] and go to Tools --> Build System --> New Build System...
 * Copy & paste the below code
-{% highlight json %}
+
+```json
 {
   "cmd": ["tishadow run --update"],
   "working_dir": "$folder",
@@ -23,7 +24,8 @@ Here is a [Sublime Text][sublime_text] build system, that lets you trigger your 
     }
   ]
 }
-{% endhighlight %}
+```
+
 * Save this file to your [Sublime Text][sublime_text] user folder. I named it `TiShadow.sublime-build`.
 * Now open up an Appcelerator mobile app project folder in [Sublime Text][sublime_text]
 * Select your newly created build system (Tools --> Build System --> YOUR_BUILD_SYSTEM_NAME)
