@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-date: {}
+date: 2016-08-11T08:00:00.000Z
 tags: 'development, build, tishadow, default, host'
 ---
 You use [tishadow](http://tishadow.yydigital.com/) for rapid development of appcelerator titanium apps?  
