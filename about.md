@@ -9,5 +9,5 @@ disableComments: true
 </div>
 <div class="width-70">
 	<br />
-	My name is Hendrik Elsner. I work as a Systems Developer. This is my infrequently used notebook.
+	My name is Hendrik Haas. I work as a Systems Developer. This is my infrequently used notebook.
 </div>
