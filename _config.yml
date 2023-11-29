@@ -5,7 +5,7 @@ email: 321hendrik@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Notes on working as a Systems Developer (App, Web, Server)
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://321hendrik.github.io" # the base hostname & protocol for your site
+url: "https://321hendrik.github.io" # the base hostname & protocol for your site
 github_username:  321hendrik
 
 # Build settings
@@ -22,5 +22,5 @@ kramdown:
 # Prose Editor Settings
 prose:
   rooturl: '_posts'
-  siteurl: 'http://321hendrik.github.io/'
+  siteurl: 'https://321hendrik.github.io/'
   media: 'img'
